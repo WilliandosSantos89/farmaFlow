@@ -6,9 +6,9 @@ Sistema modular de gestão para redes farmacêuticas. Integra operações, logí
 
 ## 💡 Origem do Projeto
 
-FarmaFlow nasceu da observação direta da operação de uma farmácia. Processos manuais, comunicação via WhatsApp, conferências em papel e erros descobertos tarde demais — na porta do cliente.
+O setor farmacêutico opera com processos altamente manuais: conferências em papel, comunicação informal entre setores, rastreabilidade zero e erros descobertos tarde demais — frequentemente na porta do cliente.
 
-O sistema foi projetado para eliminar esses gargalos um módulo de cada vez, integrando todos os setores num banco de dados central.
+FarmaFlow foi desenvolvido para atacar esses gargalos de forma modular e integrada, conectando todos os setores num banco de dados central e substituindo processos manuais por registros automáticos e rastreáveis.
 
 ---
 
@@ -49,13 +49,13 @@ Controla o ciclo completo de entregas: registro, acompanhamento em tempo real, c
 ---
 
 ### ✅ Módulo 02 — Caixa e Conferência
-Elimina o repasse manual entre o caixa e o entregador. Cria registro formal de cada pedido conferido e conecta automaticamente com o módulo de entregas.
+Elimina o repasse manual entre o setor de caixa e a operação de entregas. Cria registro formal de cada pedido conferido com rastreabilidade completa.
 
 **Funcionalidades:**
-- Registro de pedidos pela operadora com itens, valor e forma de pagamento
+- Registro de pedidos com itens, valor e forma de pagamento
 - Formas de pagamento: Pago, Dinheiro, Pix, Cartão na Entrega
 - Campo de troco condicional — aparece apenas quando necessário
-- Confirmação de recebimento pelo entregador com registro de horário
+- Confirmação de recebimento com registro de horário e responsável
 - Tabela de pedidos do dia com status de confirmação em tempo real
 - Rastreabilidade completa: quem registrou, quem confirmou e quando
 
@@ -71,7 +71,7 @@ Registro de custos por categoria, comparação com orçamento e identificação 
 Gestão de colaboradores, jornada e indicadores de performance.
 
 ### 🔜 Módulo 06 — Painel Gerencial
-Dashboard central com dados em tempo real de todos os módulos — elimina a conferência manual do gestor.
+Dashboard central com dados em tempo real de todos os módulos — elimina a conferência manual da gestão.
 
 ---
 
